@@ -2,7 +2,7 @@
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-An adaptive will use percents and some units that scale, but it will not be fully responsive. A fully responsive website will use media queries and look great on mobile, tablet, or desktop view.
+An adaptive website will use percents and some units that scale, but it will not be fully responsive. A fully responsive website will use media queries and look great on mobile, tablet, or desktop view.
 
 2. Describe what it means to be mobile first vs desktop first?
 
@@ -14,8 +14,8 @@ The default font size in HTML is 16 pixels. 62.5% of that is 10 pixels. This mak
 
 4. How would you describe preprocessing to someone new to CSS?
 
-A preprocessor allows you to organize your CSS. You can create variables and functions essentially to automate your workload and make quick changes throughout the whole site.
+A preprocessor allows you to organize your CSS. You can create variables and functions essentially that allow you to automate your workload and make quick changes throughout the whole site.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite concept is a parametric mix-in because it's like a function since it allows you to pass arguments through. A concept that give me a little trouble was the syntax in escaping, or storing a media query in a variable.
+My favorite concept is the parametric mix-in because it's a function, allowing you to pass through different arguments. It makes it easy when the structure of different things are the same, but you need to make small tweaks in each component. A concept that give me a little trouble was the syntax in escaping, or storing a media query in a variable.
