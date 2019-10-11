@@ -1,1 +1,23 @@
-// Mixins Here
+// mix-ins
+
+.header-footer-background() {
+    background: #f4f4f4;
+    border: 1px double #e0e0e0;
+}
+
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// parametric
+
+.button(@color, @background) {
+    text-decoration: none;
+    color: @color;
+    background: @background;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}

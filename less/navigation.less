@@ -1,1 +1,37 @@
-// Navigation code here
+.navigation { 
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 0;
+    margin: 0 auto;
+    .header-footer-background();
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
+
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    nav {
+        max-width: 800px;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        
+        a {
+            text-decoration: none;
+            color: @header-font-color;
+            font-size: 1.6rem;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+        
+        @media @mobile {
+            width: 75%;
+        }
+    }
+}
